@@ -1,2 +1,5 @@
-# DLAnimations
-Animation learning demo code
+
+
+[DLSlideMenu](https://github.com/Liqiankun/DLAnimations/edit/master/README.md)|[DLSlideMenu](https://github.com/Liqiankun/DLAnimations/edit/master/README.md)|[DLSlideMenu](https://github.com/Liqiankun/DLAnimations/edit/master/README.md)|[DLSlideMenu](https://github.com/Liqiankun/DLAnimations/edit/master/README.md) 
+------------ | ------------- | ------------| ------------
+![](https://github.com/Liqiankun/DLAnimations/raw/master/GIFS/DLSlideMenu.gif)|![](https://github.com/Liqiankun/DLAnimations/raw/master/GIFS/DLSlideMenu.gif)|![](https://github.com/Liqiankun/DLAnimations/raw/master/GIFS/DLSlideMenu.gif)|![](https://github.com/Liqiankun/DLAnimations/raw/master/GIFS/DLSlideMenu.gif)
