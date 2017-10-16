@@ -42,12 +42,12 @@
     
     CGRect initalBounds = maskLayer.bounds;
     CGRect secondBounds = CGRectMake(0, 0, 50, 50);
-    CGRect finalBounds  = CGRectMake(0, 0, 2000, 2000);
+    CGRect finalBounds  = CGRectMake(0, 0, 5000, 5000);
     logoMaskAnimaiton.values = @[[NSValue valueWithCGRect:initalBounds],[NSValue valueWithCGRect:secondBounds],[NSValue valueWithCGRect:finalBounds]];
     logoMaskAnimaiton.keyTimes = @[@(0),@(0.5),@(1)];
     logoMaskAnimaiton.timingFunctions = @[[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
     logoMaskAnimaiton.removedOnCompletion = NO;
-    logoMaskAnimaiton.fillMode = kCAFillModeForwards;
+    logoMaskAnimaiton.fillMode = kCAFillModeRemoved;
     [navc.view.layer.mask addAnimation:logoMaskAnimaiton forKey:@"logoMaskAnimaiton"];
     
     [UIView animateWithDuration:0.1 delay:1.35 options:UIViewAnimationOptionCurveEaseIn animations:^{
