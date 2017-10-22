@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6336F9191F9C25390031C0B1 /* PingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336F9181F9C25390031C0B1 /* PingInvertTransition.m */; };
 		6336F91C1F9C26DC0031C0B1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336F91B1F9C26DC0031C0B1 /* TestViewController.m */; };
+		6336F91F1F9CC03A0031C0B1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6336F91E1F9CC03A0031C0B1 /* BaseViewController.m */; };
 		63C3C5A61F9B81C100909B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3C5A51F9B81C100909B9E /* AppDelegate.m */; };
 		63C3C5AC1F9B81C100909B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C3C5AA1F9B81C100909B9E /* Main.storyboard */; };
 		63C3C5AE1F9B81C100909B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C3C5AD1F9B81C100909B9E /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 		6336F9181F9C25390031C0B1 /* PingInvertTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingInvertTransition.m; sourceTree = "<group>"; };
 		6336F91A1F9C26DC0031C0B1 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		6336F91B1F9C26DC0031C0B1 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6336F91D1F9CC03A0031C0B1 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6336F91E1F9CC03A0031C0B1 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		63C3C5A11F9B81C100909B9E /* DLPingTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLPingTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C3C5A41F9B81C100909B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63C3C5A51F9B81C100909B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,12 +76,14 @@
 				63C3C5BA1F9B82D600909B9E /* Transition */,
 				63C3C5A41F9B81C100909B9E /* AppDelegate.h */,
 				63C3C5A51F9B81C100909B9E /* AppDelegate.m */,
+				6336F91A1F9C26DC0031C0B1 /* TestViewController.h */,
+				6336F91B1F9C26DC0031C0B1 /* TestViewController.m */,
+				6336F91D1F9CC03A0031C0B1 /* BaseViewController.h */,
+				6336F91E1F9CC03A0031C0B1 /* BaseViewController.m */,
 				63C3C5BE1F9B846B00909B9E /* FirstViewController.h */,
 				63C3C5BF1F9B846B00909B9E /* FirstViewController.m */,
 				63C3C5C11F9B848300909B9E /* SecondViewController.h */,
 				63C3C5C21F9B848300909B9E /* SecondViewController.m */,
-				6336F91A1F9C26DC0031C0B1 /* TestViewController.h */,
-				6336F91B1F9C26DC0031C0B1 /* TestViewController.m */,
 				63C3C5AA1F9B81C100909B9E /* Main.storyboard */,
 				63C3C5AD1F9B81C100909B9E /* Assets.xcassets */,
 				63C3C5AF1F9B81C100909B9E /* LaunchScreen.storyboard */,
@@ -171,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C3C5C31F9B848300909B9E /* SecondViewController.m in Sources */,
+				6336F91F1F9CC03A0031C0B1 /* BaseViewController.m in Sources */,
 				63C3C5BD1F9B82E700909B9E /* PingTransition.m in Sources */,
 				6336F91C1F9C26DC0031C0B1 /* TestViewController.m in Sources */,
 				6336F9191F9C25390031C0B1 /* PingInvertTransition.m in Sources */,

@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface FirstViewController : UIViewController<UINavigationControllerDelegate>
+#import "BaseViewController.h"
+@interface FirstViewController : BaseViewController
 
 @property (strong, nonatomic) IBOutlet UIButton *button;
 
