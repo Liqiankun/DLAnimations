@@ -42,9 +42,9 @@
     
     CGRect initalBounds = maskLayer.bounds;
     CGRect secondBounds = CGRectMake(0, 0, 50, 50);
-    CGRect finalBounds  = CGRectMake(0, 0, 5000, 5000);
+    CGRect finalBounds  = CGRectMake(0, 0, 4000, 4000);
     logoMaskAnimaiton.values = @[[NSValue valueWithCGRect:initalBounds],[NSValue valueWithCGRect:secondBounds],[NSValue valueWithCGRect:finalBounds]];
-    logoMaskAnimaiton.keyTimes = @[@(0),@(0.5),@(1)];
+    logoMaskAnimaiton.keyTimes = @[@(0),@(0.3),@(1)];
     logoMaskAnimaiton.timingFunctions = @[[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
     logoMaskAnimaiton.removedOnCompletion = NO;
     logoMaskAnimaiton.fillMode = kCAFillModeRemoved;

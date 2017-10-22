@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="name.png" translatesAutoresizingMaskIntoConstraints="NO" id="s4B-Sk-hmK">
-                                <rect key="frame" x="20" y="269" width="334" height="128"/>
+                                <rect key="frame" x="20" y="269.5" width="334" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="uGL-Kd-gIL"/>
                                     <constraint firstAttribute="width" constant="334" id="vEP-1a-rnz"/>
@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840.79999999999995" y="138.98050974512745"/>
+            <point key="canvasLocation" x="1063" y="109"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GOP-8Z-ifa">
@@ -47,10 +47,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z65-p3-JRe">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.0" green="0.68627450980000004" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.0" green="0.68627450980000004" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" red="0.31764705879999999" green="0.64313725489999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -60,7 +58,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hzn-07-vV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="236" y="117"/>
+            <point key="canvasLocation" x="330" y="108"/>
         </scene>
     </scenes>
     <resources>
